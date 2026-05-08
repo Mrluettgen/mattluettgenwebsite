@@ -21,7 +21,6 @@
     </head>
 
     <body>
-      <!--- navigation bar. -->
       <section id="navigation">
           <div class="container">
               <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
@@ -29,17 +28,17 @@
                   <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"></use></svg>
                   <span class="fs-4">Matt Luettgen</span>
                 </a>
-          
+                <!--
                 <ul class="nav nav-pills">
                   <li class="nav-item"><a href="#" class="nav-link active" aria-current="page">Home</a></li>
                   <li class="nav-item"><a href="#" class="nav-link">Resume</a></li>
                   <li class="nav-item"><a href="#" class="nav-link">About</a></li>
                   <li class="nav-item"><a href="#" class="nav-link">Contact Info</a></li>
                 </ul>
+                --->
               </header>
             </div>
       </section>
-
        <!--- portrait and description. -->
       <section>
         <div class="container my-5">
@@ -56,7 +55,7 @@
                   Computational Linguist
                 </h3>
                 <h3 class="display-6" style="color: black;">
-                  Aspiring Developer
+                  AI Developer
                 </h3>
                 <h3 class="display-6" style="color: black;">
                   Japanese Language Learner
@@ -82,14 +81,56 @@
             I find a profound sense of fulfillment when I can make others use my creations to make their lives easier.
           </p>
         </div>
-
-
-
       </div>
+      <!-- Projects and Publications Section -->
+      <section id="publications" class="py-5 bg-light">
+        <div class="container">
+          <h2 class="pb-2 border-bottom">Projects & Publications</h2>
+          <div class="row g-4 py-5">
+            
+            <!-- Video Section (LinkedIn) -->
+            <div class="col-lg-6">
+              <div class="card h-100 shadow-sm">
+                <div class="card-body">
+                  <h5 class="card-title text-primary">System Breakdown GUI for XForce Fellowship</h5>
+                  <p class="card-text text-muted">We created a PyQt5-based GUI to visualize complex aircraft information in a clear and understandable manner, enhancing educational and training materials.</p>
+                  <!-- LinkedIn Video Embed -->
+                  <div class="ratio ratio-16x9">
+                    <!-- LinkedInの埋め込みコードのsrc属性をここに貼り付けてください -->
+                    <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:6831254732200259584?compact=1" height="399" width="504" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
+                  </div>
+                </div>
+              </div>
+            </div>
 
+            <!-- Papers Section -->
+            <div class="col-lg-6">
+              <div class="d-flex flex-column gap-4 h-100">
+                
+                <!-- Paper 1 -->
+                <div class="card shadow-sm">
+                  <div class="card-body">
+                    <h5 class="card-title">Taxonomy Development of Conspiracy Theories</h5>
+                    <h6 class="card-subtitle mb-2 text-body-secondary">Published in Proceedings of the 16th Linguistic Annotation Workshop (LAW-XVI) within LREC2022</h6>
+                    <p class="card-text small">I assisted in developing a taxonomy, annotated data, and trained machine learning model classifier model on conspiracy theory data to evaluate the LOCO corpus.</p>
+                    <a href="https://aclanthology.org/2022.law-1.14/" class="btn btn-outline-dark btn-sm" target="_blank">View Paper</a>
+                  </div>
+                </div>
 
-
-
-
+                <!-- Paper 2 -->
+                <div class="card shadow-sm">
+                  <div class="card-body">
+                    <h5 class="card-title">Gaze Guidance for Captioned Videos for DHH Users</h5>
+                    <h6 class="card-subtitle mb-2 text-body-secondary">Published in Journal on Technology and Persons with Disabilities 8: 69-81.</h6>
+                    <p class="card-text small">We led a study with Deaf and Hard of Hearing participants and used clustering to model eye movements of hearing participants in order to place gaze guidance technology on video lectures for deaf participants.</p>
+                    <a href="https://scholarworks.calstate.edu/concern/publications/rv042x89c" class="btn btn-outline-dark btn-sm" target="_blank">View Paper</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
     </body>
 </html>
+
